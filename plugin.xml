@@ -6,6 +6,10 @@
 
     <name>Pushwoosh</name>
 
+    <description>
+    This plugin allows you to send and receive push notifications.
+  </description>
+
     <asset src="www/PushNotification.js" target="PushNotification.js" />
 
     <!-- android -->
