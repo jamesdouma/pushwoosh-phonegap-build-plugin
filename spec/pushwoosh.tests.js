@@ -19,7 +19,7 @@
  *
 */
 
-var push;
+var PushNotification;
 
 describe('cordova.require object should exist', function () {
 	it("should exist", function() {
@@ -28,8 +28,8 @@ describe('cordova.require object should exist', function () {
 	});
 
 	it("Pushwoosh plugin should exist", function() {
-        push = cordova.require("cordova/plugin/Pushwoosh")
-        expect(push).toBeDefined();
+        PushNotification = cordova.require("cordova/plugin/Pushwoosh")
+        expect(PushNotification).toBeDefined();
 		expect(typeof PushNotification == 'object').toBe(true);
 	});
 
