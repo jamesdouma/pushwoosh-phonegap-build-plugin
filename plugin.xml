@@ -8,9 +8,11 @@
 
     <description>
     This plugin allows you to send and receive push notifications.
-  </description>
+    </description>
 
     <asset src="www/PushNotification.js" target="PushNotification.js" />
+
+    <license>MIT</license>
 
     <!-- android -->
     <platform name="android">
